@@ -2,13 +2,14 @@
 import requests
 from datetime import datetime
 from dateutil import tz
-import nswtrains.secrets
+import nswtrains_secrets
+
 
 class NswTrains(object):
 
     def __init__(self,
-                    url=NSW_TRAINS_URL,
-                    local_tz=LOCAL_TZ):
+                    url=nswtrains_secrets.NSW_TRAINS_URL,
+                    local_tz=nswtrains_secrets.LOCAL_TZ):
         self.url = url
         self.local_tz = local_tz
         self._set_tz()
@@ -36,13 +37,13 @@ class NswTrains(object):
             local_time = self._convert_tz(departure_utc)
             result.append(local_time)
         return result
-    
+
     def _convert_tz(self, dt_utc):
         utc = datetime.strptime(dt_utc, '%Y-%m-%dT%H:%M:%SZ')
         utc = utc.replace(tzinfo=self.from_zone)
         local_time = utc.astimezone(self.to_zone)
-        return local_time
+        return local_time.replace(tzinfo=None)
 
     def _format_result(self, items):
-        return items #  [item.strftime('%H:%M') for item in items]
-
+        #  [item.strftime('%H:%M') for item in items]
+        return items

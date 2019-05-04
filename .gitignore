@@ -1,7 +1,10 @@
 # custom files/folders to ignore
 .vscode/
 luma.led_matrix/
-nswtrains.secrets.py
+nswtrains_secrets/
+pizero-clock/
+*nswtrains.cache
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
