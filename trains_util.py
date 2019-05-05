@@ -12,7 +12,7 @@ def timediff_min(start_dt, end_dt):
 
 def get_trains():
     #  use cache here
-    cached_trains = shelve.open("nswtrains.cache")
+    cached_trains = shelve.open("nswtrains.cache", writeback=True)
     # find out if cache is stale
     present = datetime.now()
     #  trains after +10 min from now
