@@ -28,5 +28,5 @@ def get_trains():
             cached_trains[str(key)] = item
     # save to cache
     cached_trains.close()
-    return next_trains.sort()
+    return sorted(next_trains)
     
