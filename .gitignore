@@ -3,8 +3,10 @@
 luma.led_matrix/
 nswtrains_secrets/
 pizero-clock/
-*nswtrains.cache
+*.cache
 .DS_Store
+owm_secrets.py
+nswtrains_secrets.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

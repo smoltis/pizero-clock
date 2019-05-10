@@ -6,13 +6,14 @@ from datetime import datetime
 
 #  display drivers
 from luma.led_matrix.device import max7219
-from luma.core.interface.serial import spi, noop
+from luma.core.interface.serial import spi
 from luma.core.render import canvas
 from luma.core.legacy import text, show_message
 from luma.core.legacy.font import proportional, CP437_FONT, TINY_FONT
 
 #  my utility libraries
 from trains_util import get_trains
+from weather_util import get_weather
 
 
 def animation_dt(device, from_y, to_y, dt):
@@ -72,7 +73,7 @@ if __name__ == '__main__':
         train_times = [tm.strftime('%H:%M') for tm in get_trains()[:3]]
         trains = ', '.join(train_times)
         show_message(device, 'Trains: ' + trains, fill="white", font=proportional(CP437_FONT))
-    
+    weather = get_weather()
+    show_message(device, 'Weather: ' + weather, fill="white", font=proportional(CP437_FONT))
     minute_change(device)
-
 

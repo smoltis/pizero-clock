@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 import pytz
-from trains_util import timediff_min
+from timeint_util import timediff_min
 
 
 class TestTimeDiffMethods(unittest.TestCase):
