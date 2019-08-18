@@ -75,5 +75,7 @@ if __name__ == '__main__':
         show_message(device, 'Trains: ' + trains, fill="white", font=proportional(CP437_FONT))
     weather = get_weather()
     show_message(device, 'Weather: ' + weather, fill="white", font=proportional(CP437_FONT))
+    show_message(device, datetime.now().strftime("%a %d %b %Y"), fill="white", font=proportional(CP437_FONT))
     minute_change(device)
+    
 
