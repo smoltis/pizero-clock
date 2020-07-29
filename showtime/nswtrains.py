@@ -1,14 +1,13 @@
 
 import requests
 from datetime import datetime
-from dateutil import tz
-import nswtrains_secrets
-from timeint_util import UtcTzConvert
+from .nswtrains_secrets import NSW_TRAINS_URL
+from .timeint_util import UtcTzConvert
 
 
 class NswTrains(object):
 
-    def __init__(self, url=nswtrains_secrets.NSW_TRAINS_URL):
+    def __init__(self, url=NSW_TRAINS_URL):
         self.url = url
 
     def _get_response(self):

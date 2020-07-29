@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
-import owm_secrets
-from timeint_util import UtcTzConvert
+from .owm_secrets import API_URL
+from .timeint_util import UtcTzConvert
 
 ''' API Response Parameters:
 coord
@@ -58,7 +58,7 @@ cod Internal parameter
 
 class OWM(object):
 
-    def __init__(self, url=owm_secrets.API_URL):
+    def __init__(self, url=API_URL):
         self.url = url
 
     def get_weather(self):

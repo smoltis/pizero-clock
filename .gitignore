@@ -7,6 +7,8 @@ pizero-clock/
 .DS_Store
 owm_secrets.py
 nswtrains_secrets.py
+tides_secrets.py
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

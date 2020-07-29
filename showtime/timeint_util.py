@@ -1,7 +1,6 @@
 from dateutil import tz
 from datetime import datetime
 
-
 def timediff_min(start_dt, end_dt):
     #  convert to datetime native
     diff = (end_dt.replace(tzinfo=None) - start_dt.replace(tzinfo=None))
@@ -10,6 +9,10 @@ def timediff_min(start_dt, end_dt):
 
 
 class UtcTzConvert(object):
+    """
+    This class is responsible for datetime math.
+    It returns timezone aware datetime objects.
+    """
     def __init__(self, local_tz='Australia/Sydney'):
         self._set_tz(local_tz)
 
@@ -22,3 +25,6 @@ class UtcTzConvert(object):
         utc = dt_utc.replace(tzinfo=self.from_zone)
         local_time = utc.astimezone(self.to_zone)
         return local_time.replace(tzinfo=None)  # return datetime native
+
+    def from_timestamp(self, ts):
+        return datetime.fromtimestamp(ts, tz=self.to_zone)

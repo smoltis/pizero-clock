@@ -12,8 +12,14 @@ from luma.core.legacy import text, show_message
 from luma.core.legacy.font import proportional, CP437_FONT, TINY_FONT
 
 #  my utility libraries
-from trains_util import get_trains
-from weather_util import get_weather
+from .trains_util import get_trains
+from .weather_util import get_weather
+from .tides_util import get_tides
+
+# TODO: Add tides
+# TODO: add outdoor temperature sensor
+# TODO: add speaker
+# TODO: add webUI
 
 
 def animation_dt(device, from_y, to_y, dt):
@@ -59,7 +65,15 @@ def minute_change(device):
         helper(current_y)
 
 
-if __name__ == '__main__':
+def format_tides():
+    tides = get_tides()
+    m = 'Moon: {}%, {}'.format(tides['moon']['pct'], tides['moon']['phase'])
+    td = ["{} {}".format(item.get('desc'), item.get('ts')) for item in tides['tides']]
+    t = 'Tides at {}: {}'.format(tides['location'], ", ".join(td))
+    return "{} {}".format(m, t)
+
+
+def showtime():
     #  setup display
     serial = spi(port=0, device=0)
     device = max7219(serial, cascaded=4, block_orientation=0, rotate=0)
@@ -72,10 +86,13 @@ if __name__ == '__main__':
         #  show next three trains
         train_times = [tm.strftime('%H:%M') for tm in get_trains()[:3]]
         trains = ', '.join(train_times)
-        show_message(device, 'Trains: ' + trains, fill="white", font=proportional(CP437_FONT))
+        show_message(device, 'Trains: ' + trains, fill="white",
+                     font=proportional(CP437_FONT))
     weather = get_weather()
-    show_message(device, 'Weather: ' + weather, fill="white", font=proportional(CP437_FONT))
-    show_message(device, datetime.now().strftime("%a %d %b %Y"), fill="white", font=proportional(CP437_FONT))
+    show_message(device, 'Weather: ' + weather, fill="white",
+                 font=proportional(CP437_FONT))
+    show_message(device, format_tides(), fill="white",
+                 font=proportional(CP437_FONT))
+    show_message(device, datetime.now().strftime("%a %d %b %Y"), fill="white",
+                 font=proportional(CP437_FONT))
     minute_change(device)
-    
-

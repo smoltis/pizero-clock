@@ -1,0 +1,3603 @@
+{
+  "data": {
+    "location": {
+      "id": 19170,
+      "name": "Cronulla Beach",
+      "region": "Sydney",
+      "state": "NSW",
+      "postcode": "",
+      "timeZone": "Australia/Sydney",
+      "lat": -34.0557,
+      "lng": 151.1554,
+      "typeId": 2,
+      "timeZoneOffset": 36000
+    },
+    "forecastGraphs": {
+      "sunrisesunset": {
+        "dataConfig": {
+          "series": {
+            "config": {
+              "id": "sunrisesunset",
+              "lineFill": true,
+              "lineRenderer": "StraightLineRenderer",
+              "showPoints": false,
+              "pointRenderer": "SunriseSunsetPointRenderer",
+              "pointFormatter": "SunriseSunsetPointFormatter"
+            },
+            "yAxisDataMin": null,
+            "yAxisDataMax": null,
+            "yAxisMin": null,
+            "yAxisMax": null,
+            "groups": [
+              {
+                "dateTime": 1595894400,
+                "points": [
+                  {
+                    "x": 1595917443,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1595919037,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1595956389,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1595957982,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              },
+              {
+                "dateTime": 1595980800,
+                "points": [
+                  {
+                    "x": 1596003801,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1596005391,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1596042831,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1596044421,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596067200,
+                "points": [
+                  {
+                    "x": 1596090157,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1596091744,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1596129272,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1596130860,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596153600,
+                "points": [
+                  {
+                    "x": 1596176511,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1596178096,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1596215714,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1596217299,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596240000,
+                "points": [
+                  {
+                    "x": 1596262864,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1596264446,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1596302156,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1596303738,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596326400,
+                "points": [
+                  {
+                    "x": 1596349216,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1596350795,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1596388599,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1596390177,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596412800,
+                "points": [
+                  {
+                    "x": 1596435567,
+                    "description": "First Light",
+                    "type": "first-light"
+                  },
+                  {
+                    "x": 1596437142,
+                    "description": "Sunrise",
+                    "type": "sunrise"
+                  },
+                  {
+                    "x": 1596475041,
+                    "description": "Sunset",
+                    "type": "sunset"
+                  },
+                  {
+                    "x": 1596476617,
+                    "description": "Last Light",
+                    "type": "last-light"
+                  }
+                ]
+              }
+            ],
+            "controlPoints": { "pre": null, "post": null },
+            "controlPoint": null
+          },
+          "xAxisMin": 1595894400,
+          "xAxisMax": 1596499199
+        },
+        "carousel": { "size": 1096, "start": 575 }
+      },
+      "tides": {
+        "dataConfig": {
+          "series": {
+            "config": {
+              "id": "tides",
+              "color": "#0094F8",
+              "lineWidth": 2,
+              "lineFill": true,
+              "lineRenderer": "CurvedLineRenderer",
+              "showPoints": false,
+              "pointFormatter": "TidePointFormatter"
+            },
+            "yAxisDataMin": 0,
+            "yAxisDataMax": 1.99,
+            "yAxisMin": 0,
+            "yAxisMax": 4,
+            "groups": [
+              {
+                "dateTime": 1595894400,
+                "points": [
+                  {
+                    "x": 1595894898,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595895975,
+                    "y": 1.23,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595897052,
+                    "y": 1.28,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595898129,
+                    "y": 1.31,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595899206,
+                    "y": 1.34,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595900283,
+                    "y": 1.35,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595901360,
+                    "y": 1.36,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1595902503,
+                    "y": 1.35,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595903646,
+                    "y": 1.34,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595904789,
+                    "y": 1.3,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595905932,
+                    "y": 1.26,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595907075,
+                    "y": 1.21,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595908218,
+                    "y": 1.15,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595909361,
+                    "y": 1.08,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595910504,
+                    "y": 1.01,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595911647,
+                    "y": 0.93,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595912790,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595913933,
+                    "y": 0.78,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595915076,
+                    "y": 0.7,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595916219,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595917362,
+                    "y": 0.56,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595918505,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595919648,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595920791,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595921934,
+                    "y": 0.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595923077,
+                    "y": 0.36,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595924220,
+                    "y": 0.35,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1595925396,
+                    "y": 0.36,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595926572,
+                    "y": 0.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595927748,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595928924,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595930100,
+                    "y": 0.52,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595931276,
+                    "y": 0.58,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595932452,
+                    "y": 0.66,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595933628,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595934804,
+                    "y": 0.83,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595935980,
+                    "y": 0.92,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595937156,
+                    "y": 1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595938332,
+                    "y": 1.09,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595939508,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595940684,
+                    "y": 1.25,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595941860,
+                    "y": 1.31,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595943036,
+                    "y": 1.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595944212,
+                    "y": 1.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595945388,
+                    "y": 1.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595946564,
+                    "y": 1.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595947740,
+                    "y": 1.48,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1595948895,
+                    "y": 1.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595950050,
+                    "y": 1.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595951205,
+                    "y": 1.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595952360,
+                    "y": 1.39,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595953515,
+                    "y": 1.34,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595954670,
+                    "y": 1.28,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595955825,
+                    "y": 1.21,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595956980,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595958135,
+                    "y": 1.06,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595959290,
+                    "y": 0.99,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595960445,
+                    "y": 0.91,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595961600,
+                    "y": 0.83,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595962755,
+                    "y": 0.76,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595963910,
+                    "y": 0.69,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595965065,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595966220,
+                    "y": 0.58,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595967375,
+                    "y": 0.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595968530,
+                    "y": 0.51,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595969685,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595970840,
+                    "y": 0.49,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1595971896,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595972952,
+                    "y": 0.51,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595974008,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595975064,
+                    "y": 0.56,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595976120,
+                    "y": 0.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595977176,
+                    "y": 0.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595978232,
+                    "y": 0.69,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595979288,
+                    "y": 0.75,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595980344,
+                    "y": 0.81,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 61,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              },
+              {
+                "dateTime": 1595980800,
+                "points": [
+                  {
+                    "x": 1595981400,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595982456,
+                    "y": 0.92,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595983512,
+                    "y": 0.98,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595984568,
+                    "y": 1.04,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595985624,
+                    "y": 1.09,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595986680,
+                    "y": 1.13,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595987736,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595988792,
+                    "y": 1.2,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595989848,
+                    "y": 1.22,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595990904,
+                    "y": 1.24,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595991960,
+                    "y": 1.24,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1595993061,
+                    "y": 1.23,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595994162,
+                    "y": 1.22,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595995263,
+                    "y": 1.19,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595996364,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595997465,
+                    "y": 1.12,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595998566,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1595999667,
+                    "y": 1.01,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596000768,
+                    "y": 0.95,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596001869,
+                    "y": 0.89,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596002970,
+                    "y": 0.82,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596004071,
+                    "y": 0.75,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596005172,
+                    "y": 0.69,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596006273,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596007374,
+                    "y": 0.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596008475,
+                    "y": 0.52,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596009576,
+                    "y": 0.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596010677,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596011778,
+                    "y": 0.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596012879,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596013980,
+                    "y": 0.4,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596015177,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596016374,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596017571,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596018768,
+                    "y": 0.51,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596019965,
+                    "y": 0.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596021162,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596022359,
+                    "y": 0.71,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596023556,
+                    "y": 0.79,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596024753,
+                    "y": 0.88,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596025950,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596027147,
+                    "y": 1.06,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596028344,
+                    "y": 1.15,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596029541,
+                    "y": 1.23,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596030738,
+                    "y": 1.31,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596031935,
+                    "y": 1.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596033132,
+                    "y": 1.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596034329,
+                    "y": 1.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596035526,
+                    "y": 1.51,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596036723,
+                    "y": 1.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596037920,
+                    "y": 1.54,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596039117,
+                    "y": 1.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596040314,
+                    "y": 1.51,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596041511,
+                    "y": 1.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596042708,
+                    "y": 1.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596043905,
+                    "y": 1.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596045102,
+                    "y": 1.31,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596046299,
+                    "y": 1.24,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596047496,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596048693,
+                    "y": 1.08,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596049890,
+                    "y": 0.99,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596051087,
+                    "y": 0.9,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596052284,
+                    "y": 0.82,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596053481,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596054678,
+                    "y": 0.67,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596055875,
+                    "y": 0.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596057072,
+                    "y": 0.55,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596058269,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596059466,
+                    "y": 0.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596060663,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596061860,
+                    "y": 0.44,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596062907,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596063954,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596065001,
+                    "y": 0.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596066048,
+                    "y": 0.51,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596067095,
+                    "y": 0.55,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 72,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596067200,
+                "points": [
+                  {
+                    "x": 1596068142,
+                    "y": 0.59,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596069189,
+                    "y": 0.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596070236,
+                    "y": 0.7,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596071283,
+                    "y": 0.75,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596072330,
+                    "y": 0.81,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596073377,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596074424,
+                    "y": 0.92,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596075471,
+                    "y": 0.98,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596076518,
+                    "y": 1.03,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596077565,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596078612,
+                    "y": 1.11,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596079659,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596080706,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596081753,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596082800,
+                    "y": 1.18,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596083850,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596084900,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596085950,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596087000,
+                    "y": 1.11,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596088050,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596089100,
+                    "y": 1.02,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596090150,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596091200,
+                    "y": 0.92,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596092250,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596093300,
+                    "y": 0.8,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596094350,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596095400,
+                    "y": 0.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596096450,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596097500,
+                    "y": 0.58,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596098550,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596099600,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596100650,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596101700,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596102750,
+                    "y": 0.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596103800,
+                    "y": 0.42,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596105006,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596106212,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596107418,
+                    "y": 0.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596108624,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596109830,
+                    "y": 0.59,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596111036,
+                    "y": 0.66,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596112242,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596113448,
+                    "y": 0.83,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596114654,
+                    "y": 0.92,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596115860,
+                    "y": 1.01,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596117066,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596118272,
+                    "y": 1.19,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596119478,
+                    "y": 1.28,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596120684,
+                    "y": 1.36,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596121890,
+                    "y": 1.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596123096,
+                    "y": 1.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596124302,
+                    "y": 1.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596125508,
+                    "y": 1.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596126714,
+                    "y": 1.59,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596127920,
+                    "y": 1.6,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596129150,
+                    "y": 1.59,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596130380,
+                    "y": 1.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596131610,
+                    "y": 1.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596132840,
+                    "y": 1.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596134070,
+                    "y": 1.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596135300,
+                    "y": 1.35,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596136530,
+                    "y": 1.26,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596137760,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596138990,
+                    "y": 1.08,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596140220,
+                    "y": 0.99,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596141450,
+                    "y": 0.89,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596142680,
+                    "y": 0.79,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596143910,
+                    "y": 0.71,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596145140,
+                    "y": 0.62,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596146370,
+                    "y": 0.55,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596147600,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596148830,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596150060,
+                    "y": 0.4,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596151290,
+                    "y": 0.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596152520,
+                    "y": 0.37,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596153564,
+                    "y": 0.37,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 81,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596153600,
+                "points": [
+                  {
+                    "x": 1596154608,
+                    "y": 0.39,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596155652,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596156696,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596157740,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596158784,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596159828,
+                    "y": 0.59,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596160872,
+                    "y": 0.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596161916,
+                    "y": 0.7,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596162960,
+                    "y": 0.77,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596164004,
+                    "y": 0.83,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596165048,
+                    "y": 0.89,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596166092,
+                    "y": 0.94,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596167136,
+                    "y": 1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596168180,
+                    "y": 1.04,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596169224,
+                    "y": 1.08,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596170268,
+                    "y": 1.12,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596171312,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596172356,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596173400,
+                    "y": 1.16,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596174411,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596175422,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596176433,
+                    "y": 1.12,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596177444,
+                    "y": 1.09,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596178455,
+                    "y": 1.05,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596179466,
+                    "y": 1.01,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596180477,
+                    "y": 0.96,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596181488,
+                    "y": 0.91,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596182499,
+                    "y": 0.85,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596183510,
+                    "y": 0.8,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596184521,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596185532,
+                    "y": 0.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596186543,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596187554,
+                    "y": 0.58,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596188565,
+                    "y": 0.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596189576,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596190587,
+                    "y": 0.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596191598,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596192609,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596193620,
+                    "y": 0.43,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596194826,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596196032,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596197238,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596198444,
+                    "y": 0.55,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596199650,
+                    "y": 0.61,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596200856,
+                    "y": 0.69,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596202062,
+                    "y": 0.77,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596203268,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596204474,
+                    "y": 0.95,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596205680,
+                    "y": 1.05,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596206886,
+                    "y": 1.15,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596208092,
+                    "y": 1.24,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596209298,
+                    "y": 1.33,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596210504,
+                    "y": 1.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596211710,
+                    "y": 1.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596212916,
+                    "y": 1.55,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596214122,
+                    "y": 1.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596215328,
+                    "y": 1.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596216534,
+                    "y": 1.66,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596217740,
+                    "y": 1.67,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596218976,
+                    "y": 1.66,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596220212,
+                    "y": 1.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596221448,
+                    "y": 1.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596222684,
+                    "y": 1.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596223920,
+                    "y": 1.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596225156,
+                    "y": 1.39,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596226392,
+                    "y": 1.3,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596227628,
+                    "y": 1.2,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596228864,
+                    "y": 1.09,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596230100,
+                    "y": 0.99,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596231336,
+                    "y": 0.88,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596232572,
+                    "y": 0.77,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596233808,
+                    "y": 0.67,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596235044,
+                    "y": 0.58,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596236280,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596237516,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596238752,
+                    "y": 0.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596239988,
+                    "y": 0.33,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 89,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596240000,
+                "points": [
+                  {
+                    "x": 1596241224,
+                    "y": 0.31,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596242460,
+                    "y": 0.3,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596243507,
+                    "y": 0.31,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596244554,
+                    "y": 0.32,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596245601,
+                    "y": 0.35,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596246648,
+                    "y": 0.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596247695,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596248742,
+                    "y": 0.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596249789,
+                    "y": 0.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596250836,
+                    "y": 0.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596251883,
+                    "y": 0.67,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596252930,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596253977,
+                    "y": 0.8,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596255024,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596256071,
+                    "y": 0.93,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596257118,
+                    "y": 0.99,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596258165,
+                    "y": 1.04,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596259212,
+                    "y": 1.09,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596260259,
+                    "y": 1.12,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596261306,
+                    "y": 1.15,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596262353,
+                    "y": 1.16,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596263400,
+                    "y": 1.17,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596264390,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596265380,
+                    "y": 1.15,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596266370,
+                    "y": 1.13,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596267360,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596268350,
+                    "y": 1.06,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596269340,
+                    "y": 1.02,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596270330,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596271320,
+                    "y": 0.91,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596272310,
+                    "y": 0.85,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596273300,
+                    "y": 0.8,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596274290,
+                    "y": 0.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596275280,
+                    "y": 0.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596276270,
+                    "y": 0.62,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596277260,
+                    "y": 0.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596278250,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596279240,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596280230,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596281220,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596282210,
+                    "y": 0.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596283200,
+                    "y": 0.42,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596284406,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596285612,
+                    "y": 0.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596286818,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596288024,
+                    "y": 0.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596289230,
+                    "y": 0.61,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596290436,
+                    "y": 0.69,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596291642,
+                    "y": 0.77,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596292848,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596294054,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596295260,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596296466,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596297672,
+                    "y": 1.27,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596298878,
+                    "y": 1.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596300084,
+                    "y": 1.45,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596301290,
+                    "y": 1.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596302496,
+                    "y": 1.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596303702,
+                    "y": 1.65,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596304908,
+                    "y": 1.69,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596306114,
+                    "y": 1.71,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596307320,
+                    "y": 1.72,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596308547,
+                    "y": 1.71,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596309774,
+                    "y": 1.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596311001,
+                    "y": 1.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596312228,
+                    "y": 1.58,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596313455,
+                    "y": 1.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596314682,
+                    "y": 1.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596315909,
+                    "y": 1.32,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596317136,
+                    "y": 1.21,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596318363,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596319590,
+                    "y": 0.98,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596320817,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596322044,
+                    "y": 0.75,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596323271,
+                    "y": 0.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596324498,
+                    "y": 0.55,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596325725,
+                    "y": 0.46,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 95,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596326400,
+                "points": [
+                  {
+                    "x": 1596326952,
+                    "y": 0.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596328179,
+                    "y": 0.32,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596329406,
+                    "y": 0.28,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596330633,
+                    "y": 0.25,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596331860,
+                    "y": 0.24,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596332910,
+                    "y": 0.25,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596333960,
+                    "y": 0.26,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596335010,
+                    "y": 0.29,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596336060,
+                    "y": 0.33,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596337110,
+                    "y": 0.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596338160,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596339210,
+                    "y": 0.5,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596340260,
+                    "y": 0.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596341310,
+                    "y": 0.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596342360,
+                    "y": 0.72,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596343410,
+                    "y": 0.79,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596344460,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596345510,
+                    "y": 0.93,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596346560,
+                    "y": 0.99,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596347610,
+                    "y": 1.05,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596348660,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596349710,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596350760,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596351810,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596352860,
+                    "y": 1.19,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596353847,
+                    "y": 1.19,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596354834,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596355821,
+                    "y": 1.15,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596356808,
+                    "y": 1.11,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596357795,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596358782,
+                    "y": 1.03,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596359769,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596360756,
+                    "y": 0.92,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596361743,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596362730,
+                    "y": 0.8,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596363717,
+                    "y": 0.73,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596364704,
+                    "y": 0.67,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596365691,
+                    "y": 0.62,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596366678,
+                    "y": 0.56,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596367665,
+                    "y": 0.52,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596368652,
+                    "y": 0.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596369639,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596370626,
+                    "y": 0.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596371613,
+                    "y": 0.4,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596372600,
+                    "y": 0.4,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596373800,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596375000,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596376200,
+                    "y": 0.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596377400,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596378600,
+                    "y": 0.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596379800,
+                    "y": 0.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596381000,
+                    "y": 0.77,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596382200,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596383400,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596384600,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596385800,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596387000,
+                    "y": 1.28,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596388200,
+                    "y": 1.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596389400,
+                    "y": 1.46,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596390600,
+                    "y": 1.54,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596391800,
+                    "y": 1.61,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596393000,
+                    "y": 1.67,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596394200,
+                    "y": 1.71,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596395400,
+                    "y": 1.73,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596396600,
+                    "y": 1.74,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596397815,
+                    "y": 1.73,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596399030,
+                    "y": 1.7,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596400245,
+                    "y": 1.66,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596401460,
+                    "y": 1.59,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596402675,
+                    "y": 1.52,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596403890,
+                    "y": 1.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596405105,
+                    "y": 1.33,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596406320,
+                    "y": 1.21,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596407535,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596408750,
+                    "y": 0.98,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596409965,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596411180,
+                    "y": 0.75,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596412395,
+                    "y": 0.63,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 99,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              },
+              {
+                "dateTime": 1596412800,
+                "points": [
+                  {
+                    "x": 1596413610,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596414825,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596416040,
+                    "y": 0.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596417255,
+                    "y": 0.3,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596418470,
+                    "y": 0.26,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596419685,
+                    "y": 0.23,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596420900,
+                    "y": 0.22,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596421959,
+                    "y": 0.23,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596423018,
+                    "y": 0.24,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596424077,
+                    "y": 0.27,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596425136,
+                    "y": 0.32,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596426195,
+                    "y": 0.37,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596427254,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596428313,
+                    "y": 0.49,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596429372,
+                    "y": 0.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596430431,
+                    "y": 0.64,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596431490,
+                    "y": 0.72,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596432549,
+                    "y": 0.8,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596433608,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596434667,
+                    "y": 0.95,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596435726,
+                    "y": 1.01,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596436785,
+                    "y": 1.07,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596437844,
+                    "y": 1.12,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596438903,
+                    "y": 1.17,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596439962,
+                    "y": 1.2,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596441021,
+                    "y": 1.21,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596442080,
+                    "y": 1.22,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596443064,
+                    "y": 1.21,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596444048,
+                    "y": 1.2,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596445032,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596446016,
+                    "y": 1.14,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596447000,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596447984,
+                    "y": 1.05,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596448968,
+                    "y": 1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596449952,
+                    "y": 0.94,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596450936,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596451920,
+                    "y": 0.81,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596452904,
+                    "y": 0.75,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596453888,
+                    "y": 0.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596454872,
+                    "y": 0.62,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596455856,
+                    "y": 0.57,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596456840,
+                    "y": 0.52,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596457824,
+                    "y": 0.48,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596458808,
+                    "y": 0.44,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596459792,
+                    "y": 0.42,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596460776,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596461760,
+                    "y": 0.4,
+                    "description": "low",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596462954,
+                    "y": 0.41,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596464148,
+                    "y": 0.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596465342,
+                    "y": 0.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596466536,
+                    "y": 0.53,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596467730,
+                    "y": 0.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596468924,
+                    "y": 0.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596470118,
+                    "y": 0.77,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596471312,
+                    "y": 0.87,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596472506,
+                    "y": 0.97,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596473700,
+                    "y": 1.08,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596474894,
+                    "y": 1.18,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596476088,
+                    "y": 1.28,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596477282,
+                    "y": 1.38,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596478476,
+                    "y": 1.47,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596479670,
+                    "y": 1.55,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596480864,
+                    "y": 1.62,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596482058,
+                    "y": 1.68,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596483252,
+                    "y": 1.72,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596484446,
+                    "y": 1.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596485640,
+                    "y": 1.75,
+                    "description": "high",
+                    "interpolated": false
+                  },
+                  {
+                    "x": 1596486846,
+                    "y": 1.74,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596488052,
+                    "y": 1.71,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596489258,
+                    "y": 1.67,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596490464,
+                    "y": 1.6,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596491670,
+                    "y": 1.52,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596492876,
+                    "y": 1.43,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596494082,
+                    "y": 1.33,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596495288,
+                    "y": 1.22,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596496494,
+                    "y": 1.1,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596497700,
+                    "y": 0.98,
+                    "description": "",
+                    "interpolated": true
+                  },
+                  {
+                    "x": 1596498906,
+                    "y": 0.86,
+                    "description": "",
+                    "interpolated": true
+                  }
+                ],
+                "overlays": [
+                  {
+                    "renderer": "MoonPhasesOverlayRenderer",
+                    "data": {
+                      "phase": "Waxing Gibbous",
+                      "phaseCode": "waxg",
+                      "percentageFull": 99,
+                      "hemisphere": "s"
+                    }
+                  }
+                ]
+              }
+            ],
+            "controlPoints": {
+              "pre": {
+                "x": 1595879820,
+                "y": 0.49,
+                "description": "low",
+                "interpolated": false
+              },
+              "post": {
+                "x": 1596509760,
+                "y": 0.21,
+                "description": "low",
+                "interpolated": false
+              }
+            },
+            "controlPoint": null
+          },
+          "xAxisMin": 1595894400,
+          "xAxisMax": 1596499199
+        },
+        "carousel": { "size": 1826, "start": 1305 },
+        "units": { "height": "m" },
+        "issueDateTime": "2020-06-18 12:51:51",
+        "nextIssueDateTime": "2020-06-19 12:51:51"
+      }
+    },
+    "observationalGraphs": [],
+    "stations": []
+  },
+  "timestamp": 1595924273000
+}
