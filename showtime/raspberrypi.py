@@ -95,7 +95,7 @@ def read_sensor_data():
     > rtl_433 -f 433920000 -R 03 -E quit -F json
     """
     filename = 'prologue/prologue.json'
-    degree_sign = u'\xb0'
+    degree_sign = '°'
     if os.path.exists(filename):
         with open(filename) as f:
             data = f.readlines()[-1]
