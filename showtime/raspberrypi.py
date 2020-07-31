@@ -79,7 +79,7 @@ def minute_change(device):
 def format_tides():
     tides = get_tides()
     m = '>Moon: {}%, {}'.format(tides['moon']['pct'], tides['moon']['phase'])
-    td = ["{} {}".format(item.get('desc'), item.get('ts'))
+    td = ["{} {}".format(item.get('desc').replace('high', chr(24)).replace('low', chr(25)), item.get('ts'))
           for item in tides['tides']]
     t = '>Tides at {}: {}'.format(tides['location'], ", ".join(td))
     return "{} {}".format(m, t)
