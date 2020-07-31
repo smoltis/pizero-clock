@@ -1,4 +1,5 @@
 import requests
+import os
 from datetime import datetime
 from .owm_secrets import API_URL
 from .timeint_util import UtcTzConvert
@@ -76,10 +77,12 @@ class OWM(object):
         ss = tzc.convert(datetime.utcfromtimestamp(response['sys']['sunset']))
         ts = tzc.convert(datetime.utcfromtimestamp(response['dt']))
 
+        degree_sign = chr(248) if os.uname()[4].startswith('arm') else chr(176)
         weather = \
-            "{}, {}°C @ {}%, cloudiness {}%, sunrise {}, sunset {}".format(
+            "{}, {}{}C @ {}%, cloudiness {}%, sunrise {}, sunset {}".format(
                 response['weather'][0]['description'],
                 response['main']['temp'],
+                degree_sign,
                 response['main']['humidity'],
                 response['clouds']['all'],
                 sr.strftime('%H:%M'),
