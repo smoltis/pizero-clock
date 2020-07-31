@@ -78,7 +78,7 @@ class OWM(object):
         ts = tzc.convert(datetime.utcfromtimestamp(response['dt']))
 
         if os.uname()[4].startswith('arm'):
-            degree_sign = chr(248)
+            degree_sign = chr(0xF8)
             weather = \
                 "{}, {}{}C @ {}%, clouds {}%, {}{}, {}{}".format(
                     response['weather'][0]['description'],
@@ -86,9 +86,9 @@ class OWM(object):
                     degree_sign,
                     response['main']['humidity'],
                     response['clouds']['all'],
-                    chr(0x0F)+chr(0x1E),
+                    chr(0x0F)+chr(0x18),
                     sr.strftime('%H:%M'),
-                    chr(0x0F)+chr(0x1F),
+                    chr(0x0F)+chr(0x19),
                     ss.strftime('%H:%M'))
         else:
             degree_sign = u'\N{DEGREE SIGN}'
