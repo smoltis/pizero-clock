@@ -104,6 +104,8 @@ def read_sensor_data():
                 return ">Out T: {}{} @ {}%".format(th.get('temperature_C'),
                                                    degree_sign,
                                                    th.get('humidity'))
+    else:
+        return ''
 
 
 def showtime():
