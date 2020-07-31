@@ -77,7 +77,7 @@ class OWM(object):
         ts = tzc.convert(datetime.utcfromtimestamp(response['dt']))
 
         weather = \
-            "{}, {}C @ {}%, cloudiness {}%, sunrise {}, sunset {}".format(
+            "{}, {}°C @ {}%, cloudiness {}%, sunrise {}, sunset {}".format(
                 response['weather'][0]['description'],
                 response['main']['temp'],
                 response['main']['humidity'],

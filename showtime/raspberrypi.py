@@ -95,14 +95,12 @@ def read_sensor_data():
     > rtl_433 -f 433920000 -R 03 -E quit -F json
     """
     filename = 'prologue/prologue.json'
-    degree_sign = '°'
     if os.path.exists(filename):
         with open(filename) as f:
             data = f.readlines()[-1]
             if data:
                 th = json.loads(data)
-                return ">Out T: {}{} @ {}%".format(th.get('temperature_C'),
-                                                   degree_sign,
+                return ">Out T: {}°C @ {}%".format(th.get('temperature_C'),
                                                    th.get('humidity'))
     else:
         return ''
