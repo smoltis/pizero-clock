@@ -77,14 +77,28 @@ class OWM(object):
         ss = tzc.convert(datetime.utcfromtimestamp(response['sys']['sunset']))
         ts = tzc.convert(datetime.utcfromtimestamp(response['dt']))
 
-        degree_sign = chr(248) if os.uname()[4].startswith('arm') else chr(176)
-        weather = \
-            "{}, {}{}C @ {}%, cloudiness {}%, sunrise {}, sunset {}".format(
-                response['weather'][0]['description'],
-                response['main']['temp'],
-                degree_sign,
-                response['main']['humidity'],
-                response['clouds']['all'],
-                sr.strftime('%H:%M'),
-                ss.strftime('%H:%M'))
+        if os.uname()[4].startswith('arm'):
+            degree_sign = chr(248)
+            weather = \
+                "{}, {}{}C @ {}%, clouds {}%, {}{}, {}{}".format(
+                    response['weather'][0]['description'],
+                    response['main']['temp'],
+                    degree_sign,
+                    response['main']['humidity'],
+                    response['clouds']['all'],
+                    chr(0x0F)+chr(0x1E),
+                    sr.strftime('%H:%M'),
+                    chr(0x0F)+chr(0x1F),
+                    ss.strftime('%H:%M'))
+        else:
+            degree_sign = u'\N{DEGREE SIGN}'
+            weather = \
+                "{}, {}{}C @ {}%, cloudiness {}%, sunrise {}, sunset {}".format(
+                    response['weather'][0]['description'],
+                    response['main']['temp'],
+                    degree_sign,
+                    response['main']['humidity'],
+                    response['clouds']['all'],
+                    sr.strftime('%H:%M'),
+                    ss.strftime('%H:%M'))
         return weather, ts

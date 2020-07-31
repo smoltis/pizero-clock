@@ -36,7 +36,7 @@ def read_sensor_data():
             data = f.readlines()[-1]
             if data:
                 th = json.loads(data)
-                return "Out T: {}{} @ {}%".format(th.get('temperature_C'),
+                return "Out: {}{} @ {}%".format(th.get('temperature_C'),
                                                   degree_sign,
                                                   th.get('humidity'))
 

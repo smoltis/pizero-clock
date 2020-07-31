@@ -11,6 +11,7 @@ from luma.led_matrix.device import max7219
 from luma.core.interface.serial import spi
 from luma.core.render import canvas
 from luma.core.legacy import text, show_message
+# font symbols https://github.com/rm-hull/luma.core/blob/master/luma/core/legacy/font.py
 from luma.core.legacy.font import proportional, CP437_FONT, TINY_FONT
 
 #  my utility libraries
@@ -18,9 +19,7 @@ from .trains_util import get_trains
 from .weather_util import get_weather
 from .tides_util import get_tides
 
-# TODO: Add tides
-# TODO: add outdoor temperature sensor
-# TODO: add speaker
+# TODO: add speaker support and alarms
 # TODO: add webUI
 
 
@@ -78,10 +77,10 @@ def minute_change(device):
 
 def format_tides():
     tides = get_tides()
-    m = '>Moon: {}%, {}'.format(tides['moon']['pct'], tides['moon']['phase'])
-    td = ["{} {}".format(item.get('desc').replace('high', chr(24)).replace('low', chr(25)), item.get('ts'))
+    m = ' Moon: {}%, {}'.format(tides['moon']['pct'], tides['moon']['phase'])
+    td = ["{}{}".format(item.get('desc').replace('high', chr(24)).replace('low', chr(25)), item.get('ts'))
           for item in tides['tides']]
-    t = '>Tides at {}: {}'.format(tides['location'], ", ".join(td))
+    t = ' Tides @ {}: {}'.format(tides['location'], ", ".join(td))
     return "{} {}".format(m, t)
 
 
@@ -101,7 +100,7 @@ def read_sensor_data():
             data = f.readlines()[-1]
             if data:
                 th = json.loads(data)
-                return ">Out T: {}{}C @ {}%".format(th.get('temperature_C'),
+                return " Out: {}{}C @ {}%".format(th.get('temperature_C'),
                                                     degree_sign,
                                                     th.get('humidity'))
     else:
@@ -121,10 +120,10 @@ def showtime():
         #  show next three trains
         train_times = [tm.strftime('%H:%M') for tm in get_trains()[:3]]
         trains = ', '.join(train_times)
-        show_message(device, '>Trains: ' + trains, fill="white",
+        show_message(device, ' Trains: ' + trains, fill="white",
                      font=proportional(CP437_FONT))
     weather = get_weather()
-    show_message(device, '>Weather: ' + weather, fill="white",
+    show_message(device, ' Weather: ' + weather, fill="white",
                  font=proportional(CP437_FONT))
     show_message(device, read_sensor_data(), fill="white",
                  font=proportional(CP437_FONT))
