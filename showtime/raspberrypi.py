@@ -8,7 +8,7 @@ from datetime import datetime
 
 #  display drivers
 from luma.led_matrix.device import max7219
-from luma.core.interface.serial import spi
+from luma.core.interface.serial import spi, noop
 from luma.core.render import canvas
 from luma.core.legacy import text, show_message
 # font symbols https://github.com/rm-hull/luma.core/blob/master/luma/core/legacy/font.py
@@ -109,8 +109,8 @@ def read_sensor_data():
 
 def showtime():
     #  setup display
-    serial = spi(port=0, device=0)
-    device = max7219(serial, cascaded=4, block_orientation=0, rotate=0)
+    serial = spi(port=0, device=0, gpio=noop())
+    device = max7219(serial, cascaded=4, block_orientation=-90)
     device.contrast(4)
     device.persist = True
 
